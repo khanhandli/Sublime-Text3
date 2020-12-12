@@ -118,6 +118,14 @@
             "contents": "zlib"
         },
         {
+            "trigger": "Buffer",
+            "contents": "Buffer(${1:arg}, ${2:encodingOrOffset}, ${3:length});$0"
+        },
+        {
+            "trigger": "clearImmediate",
+            "contents": "clearImmediate(${1:immediate});$0"
+        },
+        {
             "trigger": "clearInterval",
             "contents": "clearInterval(${1:timer});$0"
         },
@@ -126,136 +134,16 @@
             "contents": "clearTimeout(${1:timer});$0"
         },
         {
+            "trigger": "setImmediate",
+            "contents": "setImmediate(${1:callback}, ${2:arg1}, ${3:arg2}, ${4:arg3});$0"
+        },
+        {
             "trigger": "setInterval",
             "contents": "setInterval(${1:callback}, ${2:repeat}, ${3:arg1}, ${4:arg2}, ${5:arg3});$0"
         },
         {
             "trigger": "setTimeout",
             "contents": "setTimeout(${1:callback}, ${2:after}, ${3:arg1}, ${4:arg2}, ${5:arg3});$0"
-        },
-        {
-            "trigger": "queueMicrotask",
-            "contents": "queueMicrotask(${1:callback});$0"
-        },
-        {
-            "trigger": "clearImmediate",
-            "contents": "clearImmediate(${1:immediate});$0"
-        },
-        {
-            "trigger": "setImmediate",
-            "contents": "setImmediate(${1:callback}, ${2:arg1}, ${3:arg2}, ${4:arg3});$0"
-        },
-        {
-            "trigger": "process._rawDebug",
-            "contents": "process._rawDebug(${1:...args});$0"
-        },
-        {
-            "trigger": "process.binding",
-            "contents": "process.binding(${1:module});$0"
-        },
-        {
-            "trigger": "process._linkedBinding",
-            "contents": "process._linkedBinding(${1:module});$0"
-        },
-        {
-            "trigger": "process.dlopen",
-            "contents": "process.dlopen();$0"
-        },
-        {
-            "trigger": "process.uptime",
-            "contents": "process.uptime();$0"
-        },
-        {
-            "trigger": "process._getActiveRequests",
-            "contents": "process._getActiveRequests();$0"
-        },
-        {
-            "trigger": "process._getActiveHandles",
-            "contents": "process._getActiveHandles();$0"
-        },
-        {
-            "trigger": "process.reallyExit",
-            "contents": "process.reallyExit();$0"
-        },
-        {
-            "trigger": "process._kill",
-            "contents": "process._kill();$0"
-        },
-        {
-            "trigger": "process.hrtime",
-            "contents": "process.hrtime(${1:time});$0"
-        },
-        {
-            "trigger": "process.cpuUsage",
-            "contents": "process.cpuUsage(${1:prevValue});$0"
-        },
-        {
-            "trigger": "process.resourceUsage",
-            "contents": "process.resourceUsage();$0"
-        },
-        {
-            "trigger": "process.memoryUsage",
-            "contents": "process.memoryUsage();$0"
-        },
-        {
-            "trigger": "process.kill",
-            "contents": "process.kill(${1:pid}, ${2:sig});$0"
-        },
-        {
-            "trigger": "process.exit",
-            "contents": "process.exit(${1:code});$0"
-        },
-        {
-            "trigger": "process.openStdin",
-            "contents": "process.openStdin();$0"
-        },
-        {
-            "trigger": "process.getuid",
-            "contents": "process.getuid();$0"
-        },
-        {
-            "trigger": "process.geteuid",
-            "contents": "process.geteuid();$0"
-        },
-        {
-            "trigger": "process.getgid",
-            "contents": "process.getgid();$0"
-        },
-        {
-            "trigger": "process.getegid",
-            "contents": "process.getegid();$0"
-        },
-        {
-            "trigger": "process.getgroups",
-            "contents": "process.getgroups();$0"
-        },
-        {
-            "trigger": "process.assert",
-            "contents": "process.assert(${1:...args});$0"
-        },
-        {
-            "trigger": "process._fatalException",
-            "contents": "process._fatalException(${1:er}, ${2:fromPromise});$0"
-        },
-        {
-            "trigger": "process.setUncaughtExceptionCaptureCallback",
-            "contents": "process.setUncaughtExceptionCaptureCallback(${1:fn});$0"
-        },
-        {
-            "trigger": "process.hasUncaughtExceptionCaptureCallback",
-            "contents": "process.hasUncaughtExceptionCaptureCallback();$0"
-        },
-        {
-            "trigger": "process.emitWarning",
-            "contents": "process.emitWarning(${1:warning}, ${2:type}, ${3:code}, ${4:ctor}, ${5:now});$0"
-        },
-        {
-            "trigger": "process.nextTick",
-            "contents": "process.nextTick(${1:callback});$0"
-        },
-        {
-            "trigger": "process._tickCallback",
-            "contents": "process._tickCallback();$0"
         },
         {
             "trigger": "process._debugProcess",
@@ -278,40 +166,148 @@
             "contents": "process.abort();$0"
         },
         {
-            "trigger": "process.umask",
-            "contents": "process.umask(${1:mask});$0"
+            "trigger": "process.chdir",
+            "contents": "process.chdir(${1:...args});$0"
         },
         {
-            "trigger": "process.chdir",
-            "contents": "process.chdir(${1:directory});$0"
+            "trigger": "process.umask",
+            "contents": "process.umask(${1:...args});$0"
+        },
+        {
+            "trigger": "process._getActiveRequests",
+            "contents": "process._getActiveRequests();$0"
+        },
+        {
+            "trigger": "process._getActiveHandles",
+            "contents": "process._getActiveHandles();$0"
+        },
+        {
+            "trigger": "process._kill",
+            "contents": "process._kill();$0"
         },
         {
             "trigger": "process.cwd",
             "contents": "process.cwd();$0"
         },
         {
-            "trigger": "process.initgroups",
-            "contents": "process.initgroups(${1:user}, ${2:extraGroup});$0"
+            "trigger": "process.dlopen",
+            "contents": "process.dlopen();$0"
         },
         {
-            "trigger": "process.setgroups",
-            "contents": "process.setgroups(${1:groups});$0"
+            "trigger": "process.reallyExit",
+            "contents": "process.reallyExit();$0"
+        },
+        {
+            "trigger": "process.uptime",
+            "contents": "process.uptime();$0"
+        },
+        {
+            "trigger": "process.getuid",
+            "contents": "process.getuid();$0"
+        },
+        {
+            "trigger": "process.geteuid",
+            "contents": "process.geteuid();$0"
+        },
+        {
+            "trigger": "process.getgid",
+            "contents": "process.getgid();$0"
+        },
+        {
+            "trigger": "process.getegid",
+            "contents": "process.getegid();$0"
+        },
+        {
+            "trigger": "process.getgroups",
+            "contents": "process.getgroups();$0"
+        },
+        {
+            "trigger": "process._rawDebug",
+            "contents": "process._rawDebug();$0"
+        },
+        {
+            "trigger": "process.binding",
+            "contents": "process.binding(${1:module});$0"
+        },
+        {
+            "trigger": "process._linkedBinding",
+            "contents": "process._linkedBinding(${1:module});$0"
+        },
+        {
+            "trigger": "process._fatalException",
+            "contents": "process._fatalException(${1:er}, ${2:fromPromise});$0"
+        },
+        {
+            "trigger": "process.assert",
+            "contents": "process.assert(${1:...args});$0"
+        },
+        {
+            "trigger": "process.setUncaughtExceptionCaptureCallback",
+            "contents": "process.setUncaughtExceptionCaptureCallback(${1:fn});$0"
+        },
+        {
+            "trigger": "process.hasUncaughtExceptionCaptureCallback",
+            "contents": "process.hasUncaughtExceptionCaptureCallback();$0"
+        },
+        {
+            "trigger": "process.emitWarning",
+            "contents": "process.emitWarning(${1:warning}, ${2:type}, ${3:code}, ${4:ctor}, ${5:now});$0"
+        },
+        {
+            "trigger": "process.nextTick",
+            "contents": "process.nextTick(${1:callback});$0"
+        },
+        {
+            "trigger": "process._tickCallback",
+            "contents": "process._tickCallback();$0"
+        },
+        {
+            "trigger": "process.openStdin",
+            "contents": "process.openStdin();$0"
+        },
+        {
+            "trigger": "process.initgroups",
+            "contents": "process.initgroups(${1:...args});$0"
         },
         {
             "trigger": "process.setegid",
-            "contents": "process.setegid(${1:id});$0"
+            "contents": "process.setegid(${1:...args});$0"
         },
         {
             "trigger": "process.seteuid",
-            "contents": "process.seteuid(${1:id});$0"
+            "contents": "process.seteuid(${1:...args});$0"
         },
         {
             "trigger": "process.setgid",
-            "contents": "process.setgid(${1:id});$0"
+            "contents": "process.setgid(${1:...args});$0"
         },
         {
             "trigger": "process.setuid",
-            "contents": "process.setuid(${1:id});$0"
+            "contents": "process.setuid(${1:...args});$0"
+        },
+        {
+            "trigger": "process.setgroups",
+            "contents": "process.setgroups(${1:...args});$0"
+        },
+        {
+            "trigger": "process.hrtime",
+            "contents": "process.hrtime(${1:time});$0"
+        },
+        {
+            "trigger": "process.cpuUsage",
+            "contents": "process.cpuUsage(${1:prevValue});$0"
+        },
+        {
+            "trigger": "process.memoryUsage",
+            "contents": "process.memoryUsage();$0"
+        },
+        {
+            "trigger": "process.exit",
+            "contents": "process.exit(${1:code});$0"
+        },
+        {
+            "trigger": "process.kill",
+            "contents": "process.kill(${1:pid}, ${2:sig});$0"
         },
         {
             "trigger": "process.setMaxListeners",
@@ -442,14 +438,6 @@
             "contents": "assert.ifError(${1:err});$0"
         },
         {
-            "trigger": "assert.match",
-            "contents": "assert.match(${1:string}, ${2:regexp}, ${3:message});$0"
-        },
-        {
-            "trigger": "assert.doesNotMatch",
-            "contents": "assert.doesNotMatch(${1:string}, ${2:regexp}, ${3:message});$0"
-        },
-        {
             "trigger": "assert.strict",
             "contents": "assert.strict(${1:...args});$0"
         },
@@ -466,12 +454,16 @@
             "contents": "buffer.transcode(${1:source}, ${2:fromEncoding}, ${3:toEncoding});$0"
         },
         {
-            "trigger": "child_process._forkChild",
-            "contents": "child_process._forkChild(${1:fd}, ${2:serializationMode});$0"
-        },
-        {
             "trigger": "child_process.ChildProcess",
             "contents": "child_process.ChildProcess();$0"
+        },
+        {
+            "trigger": "child_process.fork",
+            "contents": "child_process.fork(${1:modulePath}, ${2:/*}, ${3:args}, ${4:options}, ${5:*/});$0"
+        },
+        {
+            "trigger": "child_process._forkChild",
+            "contents": "child_process._forkChild(${1:fd});$0"
         },
         {
             "trigger": "child_process.exec",
@@ -482,24 +474,20 @@
             "contents": "child_process.execFile(${1:file}, ${2:/*}, ${3:args}, ${4:options}, ${5:callback}, ${6:*/});$0"
         },
         {
-            "trigger": "child_process.execFileSync",
-            "contents": "child_process.execFileSync(${1:command}, ${2:args}, ${3:options});$0"
-        },
-        {
-            "trigger": "child_process.execSync",
-            "contents": "child_process.execSync(${1:command}, ${2:options});$0"
-        },
-        {
-            "trigger": "child_process.fork",
-            "contents": "child_process.fork(${1:modulePath}, ${2:/*}, ${3:args}, ${4:options}, ${5:*/});$0"
-        },
-        {
             "trigger": "child_process.spawn",
             "contents": "child_process.spawn(${1:file}, ${2:args}, ${3:options});$0"
         },
         {
             "trigger": "child_process.spawnSync",
             "contents": "child_process.spawnSync(${1:file}, ${2:args}, ${3:options});$0"
+        },
+        {
+            "trigger": "child_process.execFileSync",
+            "contents": "child_process.execFileSync(${1:command}, ${2:args}, ${3:options});$0"
+        },
+        {
+            "trigger": "child_process.execSync",
+            "contents": "child_process.execSync(${1:command}, ${2:options});$0"
         },
         {
             "trigger": "cluster.Worker",
@@ -582,8 +570,24 @@
             "contents": "console.log();$0"
         },
         {
+            "trigger": "console.debug",
+            "contents": "console.debug();$0"
+        },
+        {
+            "trigger": "console.info",
+            "contents": "console.info();$0"
+        },
+        {
+            "trigger": "console.dirxml",
+            "contents": "console.dirxml();$0"
+        },
+        {
             "trigger": "console.warn",
             "contents": "console.warn();$0"
+        },
+        {
+            "trigger": "console.error",
+            "contents": "console.error();$0"
         },
         {
             "trigger": "console.dir",
@@ -626,6 +630,10 @@
             "contents": "console.group();$0"
         },
         {
+            "trigger": "console.groupCollapsed",
+            "contents": "console.groupCollapsed();$0"
+        },
+        {
             "trigger": "console.groupEnd",
             "contents": "console.groupEnd();$0"
         },
@@ -634,28 +642,12 @@
             "contents": "console.table();$0"
         },
         {
-            "trigger": "console.debug",
-            "contents": "console.debug();$0"
-        },
-        {
-            "trigger": "console.info",
-            "contents": "console.info();$0"
-        },
-        {
-            "trigger": "console.dirxml",
-            "contents": "console.dirxml();$0"
-        },
-        {
-            "trigger": "console.error",
-            "contents": "console.error();$0"
-        },
-        {
-            "trigger": "console.groupCollapsed",
-            "contents": "console.groupCollapsed();$0"
-        },
-        {
             "trigger": "console.Console",
             "contents": "console.Console(${1:options}, ${2:/*}, ${3:or:}, ${4:stdout}, ${5:stderr}, ${6:ignoreErrors}, ${7:=}, ${8:true}, ${9:*/});$0"
+        },
+        {
+            "trigger": "console.markTimeline",
+            "contents": "console.markTimeline();$0"
         },
         {
             "trigger": "console.profile",
@@ -666,6 +658,14 @@
             "contents": "console.profileEnd();$0"
         },
         {
+            "trigger": "console.timeline",
+            "contents": "console.timeline();$0"
+        },
+        {
+            "trigger": "console.timelineEnd",
+            "contents": "console.timelineEnd();$0"
+        },
+        {
             "trigger": "console.timeStamp",
             "contents": "console.timeStamp();$0"
         },
@@ -674,8 +674,20 @@
             "contents": "console.context();$0"
         },
         {
+            "trigger": "crypto._toBuf",
+            "contents": "crypto._toBuf(${1:str}, ${2:encoding});$0"
+        },
+        {
+            "trigger": "crypto.createCipher",
+            "contents": "crypto.createCipher(${1:cipher}, ${2:password}, ${3:options});$0"
+        },
+        {
             "trigger": "crypto.createCipheriv",
             "contents": "crypto.createCipheriv(${1:cipher}, ${2:key}, ${3:iv}, ${4:options});$0"
+        },
+        {
+            "trigger": "crypto.createDecipher",
+            "contents": "crypto.createDecipher(${1:cipher}, ${2:password}, ${3:options});$0"
         },
         {
             "trigger": "crypto.createDecipheriv",
@@ -700,18 +712,6 @@
         {
             "trigger": "crypto.createHmac",
             "contents": "crypto.createHmac(${1:hmac}, ${2:key}, ${3:options});$0"
-        },
-        {
-            "trigger": "crypto.createPrivateKey",
-            "contents": "crypto.createPrivateKey(${1:key});$0"
-        },
-        {
-            "trigger": "crypto.createPublicKey",
-            "contents": "crypto.createPublicKey(${1:key});$0"
-        },
-        {
-            "trigger": "crypto.createSecretKey",
-            "contents": "crypto.createSecretKey(${1:key});$0"
         },
         {
             "trigger": "crypto.createSign",
@@ -762,6 +762,14 @@
             "contents": "crypto.privateEncrypt(${1:options}, ${2:buffer});$0"
         },
         {
+            "trigger": "crypto.prng",
+            "contents": "crypto.prng(${1:size}, ${2:cb});$0"
+        },
+        {
+            "trigger": "crypto.pseudoRandomBytes",
+            "contents": "crypto.pseudoRandomBytes(${1:size}, ${2:cb});$0"
+        },
+        {
             "trigger": "crypto.publicDecrypt",
             "contents": "crypto.publicDecrypt(${1:options}, ${2:buffer});$0"
         },
@@ -782,16 +790,16 @@
             "contents": "crypto.randomFillSync(${1:buf}, ${2:offset}, ${3:=}, ${4:0}, ${5:size});$0"
         },
         {
+            "trigger": "crypto.rng",
+            "contents": "crypto.rng(${1:size}, ${2:cb});$0"
+        },
+        {
             "trigger": "crypto.scrypt",
             "contents": "crypto.scrypt(${1:password}, ${2:salt}, ${3:keylen}, ${4:options}, ${5:callback}, ${6:=}, ${7:defaults});$0"
         },
         {
             "trigger": "crypto.scryptSync",
             "contents": "crypto.scryptSync(${1:password}, ${2:salt}, ${3:keylen}, ${4:options}, ${5:=}, ${6:defaults});$0"
-        },
-        {
-            "trigger": "crypto.sign",
-            "contents": "crypto.sign(${1:algorithm}, ${2:data}, ${3:key});$0"
         },
         {
             "trigger": "crypto.setEngine",
@@ -808,10 +816,6 @@
         {
             "trigger": "crypto.setFips",
             "contents": "crypto.setFips();$0"
-        },
-        {
-            "trigger": "crypto.verify",
-            "contents": "crypto.verify(${1:algorithm}, ${2:data}, ${3:key}, ${4:signature});$0"
         },
         {
             "trigger": "crypto.Certificate",
@@ -854,10 +858,6 @@
             "contents": "crypto.Hmac(${1:hmac}, ${2:key}, ${3:options});$0"
         },
         {
-            "trigger": "crypto.KeyObject",
-            "contents": "crypto.KeyObject(${1:type}, ${2:handle});$0"
-        },
-        {
             "trigger": "crypto.Sign",
             "contents": "crypto.Sign(${1:algorithm}, ${2:options});$0"
         },
@@ -866,12 +866,20 @@
             "contents": "crypto.Verify(${1:algorithm}, ${2:options});$0"
         },
         {
+            "trigger": "crypto.createCredentials",
+            "contents": "crypto.createCredentials(${1:options}, ${2:context});$0"
+        },
+        {
+            "trigger": "crypto.Credentials",
+            "contents": "crypto.Credentials(${1:secureProtocol}, ${2:secureOptions}, ${3:context}, ${4:\n}, ${5:minVersion}, ${6:maxVersion});$0"
+        },
+        {
             "trigger": "dns.lookup",
             "contents": "dns.lookup(${1:hostname}, ${2:options}, ${3:callback});$0"
         },
         {
             "trigger": "dns.lookupService",
-            "contents": "dns.lookupService(${1:address}, ${2:port}, ${3:callback});$0"
+            "contents": "dns.lookupService(${1:hostname}, ${2:port}, ${3:callback});$0"
         },
         {
             "trigger": "dns.Resolver",
@@ -890,16 +898,16 @@
             "contents": "dns.resolve();$0"
         },
         {
+            "trigger": "dns.resolveAny",
+            "contents": "dns.resolveAny();$0"
+        },
+        {
             "trigger": "dns.resolve4",
             "contents": "dns.resolve4();$0"
         },
         {
             "trigger": "dns.resolve6",
             "contents": "dns.resolve6();$0"
-        },
-        {
-            "trigger": "dns.resolveAny",
-            "contents": "dns.resolveAny();$0"
         },
         {
             "trigger": "dns.resolveCname",
@@ -910,28 +918,28 @@
             "contents": "dns.resolveMx();$0"
         },
         {
-            "trigger": "dns.resolveNaptr",
-            "contents": "dns.resolveNaptr();$0"
-        },
-        {
             "trigger": "dns.resolveNs",
             "contents": "dns.resolveNs();$0"
         },
         {
-            "trigger": "dns.resolvePtr",
-            "contents": "dns.resolvePtr();$0"
-        },
-        {
-            "trigger": "dns.resolveSoa",
-            "contents": "dns.resolveSoa();$0"
+            "trigger": "dns.resolveTxt",
+            "contents": "dns.resolveTxt();$0"
         },
         {
             "trigger": "dns.resolveSrv",
             "contents": "dns.resolveSrv();$0"
         },
         {
-            "trigger": "dns.resolveTxt",
-            "contents": "dns.resolveTxt();$0"
+            "trigger": "dns.resolvePtr",
+            "contents": "dns.resolvePtr();$0"
+        },
+        {
+            "trigger": "dns.resolveNaptr",
+            "contents": "dns.resolveNaptr();$0"
+        },
+        {
+            "trigger": "dns.resolveSoa",
+            "contents": "dns.resolveSoa();$0"
         },
         {
             "trigger": "dns.reverse",
@@ -942,16 +950,12 @@
             "contents": "events.once(${1:emitter}, ${2:name});$0"
         },
         {
-            "trigger": "events.on",
-            "contents": "events.on(${1:emitter}, ${2:event});$0"
-        },
-        {
             "trigger": "events.EventEmitter",
-            "contents": "events.EventEmitter(${1:opts});$0"
+            "contents": "events.EventEmitter();$0"
         },
         {
             "trigger": "events.init",
-            "contents": "events.init(${1:opts});$0"
+            "contents": "events.init();$0"
         },
         {
             "trigger": "events.listenerCount",
@@ -1047,11 +1051,11 @@
         },
         {
             "trigger": "fs.fstat",
-            "contents": "fs.fstat(${1:fd}, ${2:options}, ${3:=}, ${4:{}, ${5:bigint:}, ${6:false}, ${7:}}, ${8:callback});$0"
+            "contents": "fs.fstat(${1:fd}, ${2:options}, ${3:callback});$0"
         },
         {
             "trigger": "fs.fstatSync",
-            "contents": "fs.fstatSync(${1:fd}, ${2:options}, ${3:=}, ${4:{}, ${5:bigint:}, ${6:false}, ${7:}});$0"
+            "contents": "fs.fstatSync(${1:fd}, ${2:options}, ${3:=}, ${4:{}});$0"
         },
         {
             "trigger": "fs.fsync",
@@ -1086,14 +1090,6 @@
             "contents": "fs.lchownSync(${1:path}, ${2:uid}, ${3:gid});$0"
         },
         {
-            "trigger": "fs.lchmod",
-            "contents": "fs.lchmod(${1:path}, ${2:mode}, ${3:callback});$0"
-        },
-        {
-            "trigger": "fs.lchmodSync",
-            "contents": "fs.lchmodSync(${1:path}, ${2:mode});$0"
-        },
-        {
             "trigger": "fs.link",
             "contents": "fs.link(${1:existingPath}, ${2:newPath}, ${3:callback});$0"
         },
@@ -1103,11 +1099,11 @@
         },
         {
             "trigger": "fs.lstat",
-            "contents": "fs.lstat(${1:path}, ${2:options}, ${3:=}, ${4:{}, ${5:bigint:}, ${6:false}, ${7:}}, ${8:callback});$0"
+            "contents": "fs.lstat(${1:path}, ${2:options}, ${3:callback});$0"
         },
         {
             "trigger": "fs.lstatSync",
-            "contents": "fs.lstatSync(${1:path}, ${2:options}, ${3:=}, ${4:{}, ${5:bigint:}, ${6:false}, ${7:}});$0"
+            "contents": "fs.lstatSync(${1:path}, ${2:options}, ${3:=}, ${4:{}});$0"
         },
         {
             "trigger": "fs.mkdir",
@@ -1132,14 +1128,6 @@
         {
             "trigger": "fs.openSync",
             "contents": "fs.openSync(${1:path}, ${2:flags}, ${3:mode});$0"
-        },
-        {
-            "trigger": "fs.opendir",
-            "contents": "fs.opendir(${1:path}, ${2:options}, ${3:callback});$0"
-        },
-        {
-            "trigger": "fs.opendirSync",
-            "contents": "fs.opendirSync(${1:path}, ${2:options});$0"
         },
         {
             "trigger": "fs.readdir",
@@ -1191,19 +1179,19 @@
         },
         {
             "trigger": "fs.rmdir",
-            "contents": "fs.rmdir(${1:path}, ${2:options}, ${3:callback});$0"
+            "contents": "fs.rmdir(${1:path}, ${2:callback});$0"
         },
         {
             "trigger": "fs.rmdirSync",
-            "contents": "fs.rmdirSync(${1:path}, ${2:options});$0"
+            "contents": "fs.rmdirSync(${1:path});$0"
         },
         {
             "trigger": "fs.stat",
-            "contents": "fs.stat(${1:path}, ${2:options}, ${3:=}, ${4:{}, ${5:bigint:}, ${6:false}, ${7:}}, ${8:callback});$0"
+            "contents": "fs.stat(${1:path}, ${2:options}, ${3:callback});$0"
         },
         {
             "trigger": "fs.statSync",
-            "contents": "fs.statSync(${1:path}, ${2:options}, ${3:=}, ${4:{}, ${5:bigint:}, ${6:false}, ${7:}});$0"
+            "contents": "fs.statSync(${1:path}, ${2:options}, ${3:=}, ${4:{}});$0"
         },
         {
             "trigger": "fs.symlink",
@@ -1266,24 +1254,12 @@
             "contents": "fs.writeSync(${1:fd}, ${2:buffer}, ${3:offset}, ${4:length}, ${5:position});$0"
         },
         {
-            "trigger": "fs.writev",
-            "contents": "fs.writev(${1:fd}, ${2:buffers}, ${3:position}, ${4:callback});$0"
-        },
-        {
-            "trigger": "fs.writevSync",
-            "contents": "fs.writevSync(${1:fd}, ${2:buffers}, ${3:position});$0"
-        },
-        {
-            "trigger": "fs.Dir",
-            "contents": "fs.Dir(${1:handle}, ${2:path}, ${3:options});$0"
-        },
-        {
             "trigger": "fs.Dirent",
             "contents": "fs.Dirent(${1:name}, ${2:type});$0"
         },
         {
             "trigger": "fs.Stats",
-            "contents": "fs.Stats(${1:dev}, ${2:mode}, ${3:nlink}, ${4:uid}, ${5:gid}, ${6:rdev}, ${7:blksize}, ${8:\n}, ${9:ino}, ${10:size}, ${11:blocks}, ${12:\n}, ${13:atimeMs}, ${14:mtimeMs}, ${15:ctimeMs}, ${16:birthtimeMs});$0"
+            "contents": "fs.Stats(${1:\n}, ${2:dev}, ${3:\n}, ${4:mode}, ${5:\n}, ${6:nlink}, ${7:\n}, ${8:uid}, ${9:\n}, ${10:gid}, ${11:\n}, ${12:rdev}, ${13:\n}, ${14:blksize}, ${15:\n}, ${16:ino}, ${17:\n}, ${18:size}, ${19:\n}, ${20:blocks}, ${21:\n}, ${22:atim_msec}, ${23:\n}, ${24:mtim_msec}, ${25:\n}, ${26:ctim_msec}, ${27:\n}, ${28:birthtim_msec\n});$0"
         },
         {
             "trigger": "fs.ReadStream",
@@ -1379,7 +1355,7 @@
         },
         {
             "trigger": "module._resolveLookupPaths",
-            "contents": "module._resolveLookupPaths(${1:request}, ${2:parent});$0"
+            "contents": "module._resolveLookupPaths(${1:request}, ${2:parent}, ${3:newReturn});$0"
         },
         {
             "trigger": "module._load",
@@ -1390,12 +1366,12 @@
             "contents": "module._resolveFilename(${1:request}, ${2:parent}, ${3:isMain}, ${4:options});$0"
         },
         {
-            "trigger": "module.createRequireFromPath",
-            "contents": "module.createRequireFromPath(${1:filename});$0"
+            "trigger": "module.runMain",
+            "contents": "module.runMain();$0"
         },
         {
-            "trigger": "module.createRequire",
-            "contents": "module.createRequire(${1:filename});$0"
+            "trigger": "module.createRequireFromPath",
+            "contents": "module.createRequireFromPath(${1:filename});$0"
         },
         {
             "trigger": "module._initPaths",
@@ -1406,20 +1382,12 @@
             "contents": "module._preloadModules(${1:requests});$0"
         },
         {
-            "trigger": "module.syncBuiltinESMExports",
-            "contents": "module.syncBuiltinESMExports();$0"
-        },
-        {
             "trigger": "module.Module",
-            "contents": "module.Module(${1:id}, ${2:=}, ${3:''}, ${4:parent});$0"
-        },
-        {
-            "trigger": "module.runMain",
-            "contents": "module.runMain(${1:main}, ${2:=}, ${3:process.argv[1]});$0"
+            "contents": "module.Module(${1:id}, ${2:parent});$0"
         },
         {
             "trigger": "net._createServerHandle",
-            "contents": "net._createServerHandle(${1:address}, ${2:port}, ${3:addressType}, ${4:fd}, ${5:flags});$0"
+            "contents": "net._createServerHandle(${1:address}, ${2:port}, ${3:addressType}, ${4:fd});$0"
         },
         {
             "trigger": "net._normalizeArgs",
@@ -1534,12 +1502,16 @@
             "contents": "os.uptime();$0"
         },
         {
+            "trigger": "os.getNetworkInterfaces",
+            "contents": "os.getNetworkInterfaces(${1:...args});$0"
+        },
+        {
             "trigger": "os.tmpDir",
             "contents": "os.tmpDir(${1:...args});$0"
         },
         {
             "trigger": "path.resolve",
-            "contents": "path.resolve(${1:...args});$0"
+            "contents": "path.resolve();$0"
         },
         {
             "trigger": "path.normalize",
@@ -1551,7 +1523,7 @@
         },
         {
             "trigger": "path.join",
-            "contents": "path.join(${1:...args});$0"
+            "contents": "path.join();$0"
         },
         {
             "trigger": "path.relative",
@@ -1575,7 +1547,7 @@
         },
         {
             "trigger": "path.format",
-            "contents": "path.format();$0"
+            "contents": "path.format(${1:pathObject});$0"
         },
         {
             "trigger": "path.parse",
@@ -1635,11 +1607,11 @@
         },
         {
             "trigger": "readline.clearLine",
-            "contents": "readline.clearLine(${1:stream}, ${2:dir}, ${3:callback});$0"
+            "contents": "readline.clearLine(${1:stream}, ${2:dir});$0"
         },
         {
             "trigger": "readline.clearScreenDown",
-            "contents": "readline.clearScreenDown(${1:stream}, ${2:callback});$0"
+            "contents": "readline.clearScreenDown(${1:stream});$0"
         },
         {
             "trigger": "readline.createInterface",
@@ -1647,7 +1619,7 @@
         },
         {
             "trigger": "readline.cursorTo",
-            "contents": "readline.cursorTo(${1:stream}, ${2:x}, ${3:y}, ${4:callback});$0"
+            "contents": "readline.cursorTo(${1:stream}, ${2:x}, ${3:y});$0"
         },
         {
             "trigger": "readline.emitKeypressEvents",
@@ -1655,7 +1627,7 @@
         },
         {
             "trigger": "readline.moveCursor",
-            "contents": "readline.moveCursor(${1:stream}, ${2:dx}, ${3:dy}, ${4:callback});$0"
+            "contents": "readline.moveCursor(${1:stream}, ${2:dx}, ${3:dy});$0"
         },
         {
             "trigger": "repl.writer",
@@ -1672,6 +1644,10 @@
         {
             "trigger": "repl.Recoverable",
             "contents": "repl.Recoverable(${1:err});$0"
+        },
+        {
+            "trigger": "stream.super_",
+            "contents": "stream.super_();$0"
         },
         {
             "trigger": "stream.Readable",
@@ -1703,7 +1679,7 @@
         },
         {
             "trigger": "stream.Stream",
-            "contents": "stream.Stream(${1:opts});$0"
+            "contents": "stream.Stream();$0"
         },
         {
             "trigger": "stream._isUint8Array",
@@ -1714,60 +1690,16 @@
             "contents": "stream._uint8ArrayToBuffer(${1:chunk});$0"
         },
         {
-            "trigger": "stream.once",
-            "contents": "stream.once(${1:emitter}, ${2:name});$0"
-        },
-        {
-            "trigger": "stream.on",
-            "contents": "stream.on(${1:emitter}, ${2:event});$0"
-        },
-        {
-            "trigger": "stream.EventEmitter",
-            "contents": "stream.EventEmitter(${1:opts});$0"
-        },
-        {
-            "trigger": "stream.init",
-            "contents": "stream.init();$0"
-        },
-        {
-            "trigger": "stream.listenerCount",
-            "contents": "stream.listenerCount(${1:emitter}, ${2:type});$0"
-        },
-        {
             "trigger": "string_decoder.StringDecoder",
             "contents": "string_decoder.StringDecoder(${1:encoding});$0"
         },
         {
-            "trigger": "timers.setTimeout",
-            "contents": "timers.setTimeout(${1:callback}, ${2:after}, ${3:arg1}, ${4:arg2}, ${5:arg3});$0"
-        },
-        {
-            "trigger": "timers.clearTimeout",
-            "contents": "timers.clearTimeout(${1:timer});$0"
-        },
-        {
-            "trigger": "timers.setImmediate",
-            "contents": "timers.setImmediate(${1:callback}, ${2:arg1}, ${3:arg2}, ${4:arg3});$0"
-        },
-        {
-            "trigger": "timers.clearImmediate",
-            "contents": "timers.clearImmediate(${1:immediate});$0"
-        },
-        {
-            "trigger": "timers.setInterval",
-            "contents": "timers.setInterval(${1:callback}, ${2:repeat}, ${3:arg1}, ${4:arg2}, ${5:arg3});$0"
-        },
-        {
-            "trigger": "timers.clearInterval",
-            "contents": "timers.clearInterval(${1:timer});$0"
+            "trigger": "timers.active",
+            "contents": "timers.active(${1:item});$0"
         },
         {
             "trigger": "timers._unrefActive",
-            "contents": "timers._unrefActive(${1:...args});$0"
-        },
-        {
-            "trigger": "timers.active",
-            "contents": "timers.active(${1:...args});$0"
+            "contents": "timers._unrefActive(${1:item});$0"
         },
         {
             "trigger": "timers.unenroll",
@@ -1778,8 +1710,36 @@
             "contents": "timers.enroll(${1:...args});$0"
         },
         {
+            "trigger": "timers.setTimeout",
+            "contents": "timers.setTimeout(${1:callback}, ${2:after}, ${3:arg1}, ${4:arg2}, ${5:arg3});$0"
+        },
+        {
+            "trigger": "timers.clearTimeout",
+            "contents": "timers.clearTimeout(${1:timer});$0"
+        },
+        {
+            "trigger": "timers.setInterval",
+            "contents": "timers.setInterval(${1:callback}, ${2:repeat}, ${3:arg1}, ${4:arg2}, ${5:arg3});$0"
+        },
+        {
+            "trigger": "timers.clearInterval",
+            "contents": "timers.clearInterval(${1:timer});$0"
+        },
+        {
+            "trigger": "timers.setImmediate",
+            "contents": "timers.setImmediate(${1:callback}, ${2:arg1}, ${3:arg2}, ${4:arg3});$0"
+        },
+        {
+            "trigger": "timers.clearImmediate",
+            "contents": "timers.clearImmediate(${1:immediate});$0"
+        },
+        {
             "trigger": "tls.getCiphers",
             "contents": "tls.getCiphers();$0"
+        },
+        {
+            "trigger": "tls.convertNPNProtocols",
+            "contents": "tls.convertNPNProtocols(${1:...args});$0"
         },
         {
             "trigger": "tls.convertALPNProtocols",
@@ -1795,11 +1755,11 @@
         },
         {
             "trigger": "tls.createSecureContext",
-            "contents": "tls.createSecureContext(${1:options});$0"
+            "contents": "tls.createSecureContext(${1:options}, ${2:context});$0"
         },
         {
             "trigger": "tls.SecureContext",
-            "contents": "tls.SecureContext(${1:secureProtocol}, ${2:secureOptions}, ${3:minVersion}, ${4:maxVersion});$0"
+            "contents": "tls.SecureContext(${1:secureProtocol}, ${2:secureOptions}, ${3:context}, ${4:\n}, ${5:minVersion}, ${6:maxVersion});$0"
         },
         {
             "trigger": "tls.TLSSocket",
@@ -1823,7 +1783,7 @@
         },
         {
             "trigger": "dgram._createSocketHandle",
-            "contents": "dgram._createSocketHandle(${1:...args});$0"
+            "contents": "dgram._createSocketHandle(${1:address}, ${2:port}, ${3:addressType}, ${4:fd}, ${5:flags});$0"
         },
         {
             "trigger": "dgram.createSocket",
@@ -1907,7 +1867,7 @@
         },
         {
             "trigger": "util.formatWithOptions",
-            "contents": "util.formatWithOptions(${1:inspectOptions}, ${2:...args});$0"
+            "contents": "util.formatWithOptions(${1:inspectOptions}, ${2:f});$0"
         },
         {
             "trigger": "util.getSystemErrorName",
@@ -1987,7 +1947,7 @@
         },
         {
             "trigger": "util.log",
-            "contents": "util.log(${1:...args});$0"
+            "contents": "util.log();$0"
         },
         {
             "trigger": "util.promisify",
@@ -2002,12 +1962,24 @@
             "contents": "util.TextEncoder();$0"
         },
         {
-            "trigger": "v8.cachedDataVersionTag",
-            "contents": "v8.cachedDataVersionTag();$0"
+            "trigger": "util.debug",
+            "contents": "util.debug(${1:...args});$0"
         },
         {
-            "trigger": "v8.getHeapSnapshot",
-            "contents": "v8.getHeapSnapshot();$0"
+            "trigger": "util.error",
+            "contents": "util.error(${1:...args});$0"
+        },
+        {
+            "trigger": "util.print",
+            "contents": "util.print(${1:...args});$0"
+        },
+        {
+            "trigger": "util.puts",
+            "contents": "util.puts(${1:...args});$0"
+        },
+        {
+            "trigger": "v8.cachedDataVersionTag",
+            "contents": "v8.cachedDataVersionTag();$0"
         },
         {
             "trigger": "v8.getHeapStatistics",
@@ -2016,10 +1988,6 @@
         {
             "trigger": "v8.getHeapSpaceStatistics",
             "contents": "v8.getHeapSpaceStatistics();$0"
-        },
-        {
-            "trigger": "v8.getHeapCodeStatistics",
-            "contents": "v8.getHeapCodeStatistics();$0"
         },
         {
             "trigger": "v8.setFlagsFromString",
@@ -2050,16 +2018,12 @@
             "contents": "v8.serialize(${1:value});$0"
         },
         {
-            "trigger": "v8.writeHeapSnapshot",
-            "contents": "v8.writeHeapSnapshot(${1:filename});$0"
-        },
-        {
             "trigger": "vm.Script",
             "contents": "vm.Script(${1:code}, ${2:options}, ${3:=}, ${4:{}});$0"
         },
         {
             "trigger": "vm.createContext",
-            "contents": "vm.createContext(${1:contextObject}, ${2:=}, ${3:{}}, ${4:options}, ${5:=}, ${6:{}});$0"
+            "contents": "vm.createContext(${1:sandbox}, ${2:=}, ${3:{}}, ${4:options}, ${5:=}, ${6:{}});$0"
         },
         {
             "trigger": "vm.createScript",
@@ -2067,11 +2031,11 @@
         },
         {
             "trigger": "vm.runInContext",
-            "contents": "vm.runInContext(${1:code}, ${2:contextifiedObject}, ${3:options});$0"
+            "contents": "vm.runInContext(${1:code}, ${2:contextifiedSandbox}, ${3:options});$0"
         },
         {
             "trigger": "vm.runInNewContext",
-            "contents": "vm.runInNewContext(${1:code}, ${2:contextObject}, ${3:options});$0"
+            "contents": "vm.runInNewContext(${1:code}, ${2:sandbox}, ${3:options});$0"
         },
         {
             "trigger": "vm.runInThisContext",
@@ -2079,7 +2043,7 @@
         },
         {
             "trigger": "vm.isContext",
-            "contents": "vm.isContext(${1:object});$0"
+            "contents": "vm.isContext(${1:sandbox});$0"
         },
         {
             "trigger": "vm.compileFunction",

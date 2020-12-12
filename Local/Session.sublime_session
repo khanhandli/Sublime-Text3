@@ -1,14 +1,27 @@
 {
 	"folder_history":
 	[
+		"/home/nguyennhuy/Documents",
 		"/home/nguyennhuy/Desktop/DoAnBV2",
+		"/home/nguyennhuy/Desktop/npm",
+		"/home/nguyennhuy/Desktop/coderx",
+		"/home/nguyennhuy/Desktop/quanlynv",
+		"/home/nguyennhuy/Downloads/QLTV",
+		"/home/nguyennhuy/Desktop/BaikiemtraXMl3",
+		"/home/nguyennhuy/Desktop/baikiemtrapy",
+		"/home/nguyennhuy/Desktop/javascript-F8",
+		"/home/nguyennhuy/Desktop/Python_XML",
+		"/home/nguyennhuy/Desktop/DoAnBV2/php",
+		"/home/nguyennhuy/Downloads/sql",
+		"/home/nguyennhuy/Downloads/BANCUOI",
+		"/home/nguyennhuy/Desktop/Reponsive-F8",
+		"/home/nguyennhuy/Desktop/Web-Nguyen-duc-viet/asset",
+		"/home/nguyennhuy/Desktop/PHP",
 		"/home/nguyennhuy/Desktop/git/project2",
 		"/home/nguyennhuy/Desktop/PHP1",
 		"/home/nguyennhuy/Desktop/project1",
 		"/home/nguyennhuy/Desktop/Web-Nguyen-duc-viet",
-		"/home/nguyennhuy/Desktop/BaikiemtraXMl3",
 		"/home/nguyennhuy/Downloads/Lab3_xml&javascript",
-		"/home/nguyennhuy/Desktop/PHP",
 		"/home/nguyennhuy/Desktop/XML",
 		"/home/nguyennhuy/Desktop/PHP-MySQL",
 		"/home/nguyennhuy/Desktop/PHP5",
@@ -26,11 +39,11 @@
 		"/home/nguyennhuy/Desktop/HTML dom"
 	],
 	"last_version": 3211,
-	"last_window_id": 102,
+	"last_window_id": 146,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 0.0,
+		"new_window_height": 480.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -38,521 +51,537 @@
 				"selected_items":
 				[
 					[
-						"tim",
-						"timkiem\tabc"
+						"Thuoc",
+						"ThuocHuy\tabc"
 					],
 					[
-						"pass",
-						"password\tabc"
+						"Ma",
+						"MaThuoc\tabc"
 					],
 					[
-						"ind",
-						"index2.php"
+						"btn",
+						"bs3-button:primary\tbs3-button-primary"
 					],
 					[
-						"user",
-						"user1\tabc"
+						"b4",
+						"b4:table:hover\ttable_hover"
 					],
 					[
-						"back",
-						"background-color\tabc"
+						"mari",
+						"margin-top\tproperty"
 					],
 					[
-						"out",
-						"outline\tproperty"
+						"mar",
+						"margin-top\tproperty"
+					],
+					[
+						"font",
+						"font-size"
+					],
+					[
+						"table",
+						"table-hover \tBootstrap 3 Class"
+					],
+					[
+						"tbale",
+						"table-bordered \tBootstrap 3 Class"
+					],
+					[
+						"padding",
+						"padding\tabc"
+					],
+					[
+						"in",
+						"inline-block"
+					],
+					[
+						"fotn",
+						"font-size\tproperty"
 					],
 					[
 						"tex",
 						"text-align\tproperty"
 					],
 					[
-						"inline",
-						"inline-block"
-					],
-					[
-						"colum",
-						"column"
-					],
-					[
-						"TH",
-						"ThongTin\tabc"
-					],
-					[
-						"T",
-						"ThongTin\tabc"
-					],
-					[
-						"te",
-						"text\tabc"
-					],
-					[
-						"trangthai",
-						"trangThaiCua2CD\tabc"
-					],
-					[
-						"bien",
-						"bienMatKhiAnPrev\tabc"
-					],
-					[
-						"dang",
-						"danghienthi"
-					],
-					[
-						"class",
-						"classList\tabc"
-					],
-					[
-						"func",
-						"function"
-					],
-					[
-						"xu",
-						"xuLyTiepTheoKetThucCD"
-					],
-					[
-						"fun",
-						"function\tabc"
-					],
-					[
-						"xy",
-						"xuLyHienTaiKetThucCD\tabc"
-					],
-					[
-						"phan",
-						"phanTuTiepTheo\tabc"
-					],
-					[
-						"phanth",
-						"phanTuTiepTheo\tabc"
-					],
-					[
-						"chi",
-						"chiSoHienTai\tabc"
-					],
-					[
-						"trang",
-						"trangThai\tabc"
-					],
-					[
-						"remve",
-						"remove\t(): void Element"
-					],
-					[
-						"add",
-						"addEventListener\tabc"
-					],
-					[
-						"ove",
-						"overflow-x\tproperty"
-					],
-					[
-						"tran",
-						"transform\tproperty"
-					],
-					[
-						"re",
-						"relative\tabc"
+						"fle",
+						"flex-direction"
 					],
 					[
 						"margin",
 						"margin\tproperty"
 					],
 					[
-						"st",
-						"style\t<style>"
+						"j",
+						"justify-content\tproperty"
 					],
 					[
-						"font",
-						"font-size\tabc"
+						"cff",
+						"coffeeMachine\tabc"
 					],
 					[
-						"flex",
-						"flex-row \tBootstrap 4 Class"
+						"func",
+						"function_with_name"
 					],
 					[
-						"ju",
-						"justify-content-center \tBootstrap 4 Class"
-					],
-					[
-						"center",
-						"align-items-sm-center \tBootstrap 4 Class"
-					],
-					[
-						"float-s",
-						"float-sm-right \tBootstrap 4 Class"
-					],
-					[
-						"b4",
-						"b4:list\tlist"
-					],
-					[
-						"tra",
-						"transform\tproperty"
-					],
-					[
-						"over",
-						"overflow-x\tproperty"
-					],
-					[
-						"marign",
-						"margin-top\tproperty"
-					],
-					[
-						"getele",
-						"getElementsByClassName\t( classNames: DOMString ): HTMLCollection Element"
-					],
-					[
-						"getel",
-						"getElementById\t( elementId: DOMString ): Element Document"
-					],
-					[
-						"visi",
-						"visible"
-					],
-					[
-						"fi",
-						"fixed\tabc"
-					],
-					[
-						"a",
-						"absolute"
-					],
-					[
-						"cals",
-						"classList\t: DOMTokenList Element"
-					],
-					[
-						"calss",
-						"classList\tabc"
-					],
-					[
-						"vis",
-						"visible"
-					],
-					[
-						"getEle",
-						"getElementById\t( elementId: DOMString ): Element Document"
-					],
-					[
-						"data",
-						"data-hienthi\t(main.js)"
-					],
-					[
-						"get",
-						"getAttribute\tabc"
-					],
-					[
-						"f",
-						"function\tabc"
-					],
-					[
-						"getEleme",
-						"getElementsByClassName\t( classNames: DOMString ): HTMLCollection Document"
-					],
-					[
-						"vi",
-						"visibility"
-					],
-					[
-						"b4list",
-						"b4:list:label\tlabel"
-					],
-					[
-						"wid",
-						"width\tproperty"
-					],
-					[
-						"transl",
-						"translateY()"
-					],
-					[
-						"in",
-						"ease-in"
-					],
-					[
-						"fo",
-						"forwards"
-					],
-					[
-						"translate",
-						"translateX()"
-					],
-					[
-						"trans",
-						"transform\tproperty"
-					],
-					[
-						"marin",
-						"margin\tproperty"
-					],
-					[
-						"gete",
-						"getElementById\t( elementId: DOMString ): Element Document"
-					],
-					[
-						"docu",
-						"document\t: Document Window"
-					],
-					[
-						"b4card",
-						"b4:card:header\theader"
-					],
-					[
-						"col-sm-4",
-						"col-sm-4 \tBootstrap 4 Class"
-					],
-					[
-						"btn-",
-						"btn-info \tBootstrap 4 Class"
-					],
-					[
-						"card",
-						"card-title\tabc"
-					],
-					[
-						"bt",
-						"bootstrap"
-					],
-					[
-						"cards",
-						"card's\tabc"
-					],
-					[
-						"btn",
-						"btn-block \tBootstrap 4 Class"
-					],
-					[
-						"grow",
-						"flex-grow\tproperty"
-					],
-					[
-						"clo",
-						"column"
-					],
-					[
-						"spa",
-						"space-between"
-					],
-					[
-						"di",
-						"display\tproperty"
-					],
-					[
-						"ali",
-						"align-items"
-					],
-					[
-						"w",
-						"width\tproperty"
-					],
-					[
-						"he",
-						"height\tproperty"
-					],
-					[
-						"sty",
-						"style\t(main.js)"
-					],
-					[
-						"hex",
-						"hexColor\tabc"
-					],
-					[
-						"cen",
-						"center\tabc"
-					],
-					[
-						"al",
-						"align-items\tproperty"
-					],
-					[
-						"jus",
-						"justify-content"
-					],
-					[
-						"ran",
-						"randomNumber\tabc"
-					],
-					[
-						"query",
-						"querySelector\t( selectors: DOMString ): Element Document"
-					],
-					[
-						"cau",
-						"cau3.php"
-					],
-					[
-						"filte",
-						"filterA\tabc"
-					],
-					[
-						"vlue",
-						"value1\tabc"
-					],
-					[
-						"value",
-						"value1\tabc"
-					],
-					[
-						"sel",
-						"selectedGender\tabc"
-					],
-					[
-						"va",
-						"value1\tabc"
-					],
-					[
-						"ta",
-						"target\t: EventTarget Event"
-					],
-					[
-						"setti",
+						"set",
 						"setTimeout\t( handler: any, timeout?: long, arguments_..: any ): long Window"
 					],
 					[
-						"cal",
-						"callback\tabc"
+						"for",
+						"for_of"
+					],
+					[
+						"wid",
+						"width\t = 'initial' Style CSS"
 					],
 					[
 						"console",
 						"console_log"
 					],
 					[
-						"functi",
-						"function\tabc"
+						"fil",
+						"filter\t( callbackfn: Function, thisArg?: any ): Array Array"
 					],
 					[
-						"cosoel",
+						"consloe",
 						"console_log"
 					],
 					[
-						"for",
-						"forEach2\tabc"
+						"ta",
+						"tab-content \tBootstrap 4 Class"
 					],
 					[
-						"arr",
-						"array\tabc"
+						"tab",
+						"table-bordered \tBootstrap 3 Class"
 					],
 					[
-						"has",
-						"hasOwnProperty\t( property: string ): boolean Object"
+						"Ten",
+						"TenNV\t(Employee.php)"
 					],
 					[
-						"properties",
-						"defineProperties\t( o: Object, props: any ): Object Object"
+						"Nhan",
+						"NhanVien\tabc"
 					],
 					[
-						"que",
-						"querySelectorAll\t( selectors: DOMString ): NodeList Document"
+						"So",
+						"SoPhieuBG\tabc"
 					],
 					[
-						"loacl",
-						"localStorage\t: Storage Window"
+						"so",
+						"sophieubaogia\tabc"
 					],
 					[
-						"par",
-						"parseInt\t( s: string, radix: int ): int Global"
+						"ins",
+						"insert\tabc"
 					],
 					[
-						"lis",
-						"listAge\tabc"
+						"Sophie",
+						"SoPhieuBG\t(QLBaoGia.php)"
 					],
 					[
-						"getElen",
-						"getElementById\t( elementId: DOMString ): Element Document"
+						"sophie",
+						"sophieu1\tabc"
 					],
 					[
-						"selec",
-						"selection\t(index.html)"
+						"sophieu",
+						"sophieu\tabc"
 					],
 					[
-						"pro",
-						"prototype"
+						"S",
+						"SoPhieuHuy\tabc"
 					],
 					[
-						"onmou",
-						"onmousemove\t: EventHandler Document"
+						"soph",
+						"sophieumuathuoc\tabc"
 					],
 					[
-						"bu",
-						"buttomm\tabc"
+						"sop",
+						"sophieumuathuoc2\tabc"
 					],
 					[
-						"type",
-						"type\tAttr"
+						"sph",
+						"sophieubaogia\tabc"
 					],
 					[
-						"ma",
-						"maNganhnhap\tabc"
+						"QL",
+						"QLHuyThuoc.php\tabc"
 					],
 					[
-						"ho",
-						"hotenNhap\tabc"
+						"thuoc",
+						"thuochuy\t(QLHuyThuoc.php)"
 					],
 					[
-						"dia",
-						"diachiNhap\tabc"
+						"ind",
+						"index2.html"
 					],
 					[
-						"sinhvine",
-						"sinhvien1\tabc"
+						"s",
+						"sophieu3\tabc"
 					],
 					[
-						"ngu",
-						"nguoitest\tabc"
+						"mathuoc",
+						"mathuoc\tabc"
 					],
 					[
-						"count",
-						"count1\tabc"
+						"sopheiu",
+						"sophieu1\tabc"
 					],
 					[
-						"del",
-						"delta\tabc"
+						"MaN",
+						"MaNV\tabc"
 					],
 					[
-						"but",
-						"buttonn\t(index.html)"
-					],
-					[
-						"test",
-						"testOnclik\t(index.html)"
-					],
-					[
-						"doc",
-						"document\t: Document Window"
-					],
-					[
-						"getelem",
-						"getElementById\t( elementId: DOMString ): Element Document"
-					],
-					[
-						"var",
-						"var_dump"
-					],
-					[
-						"d",
-						"dd\t<dd>"
-					],
-					[
-						"php",
-						"phpinfo"
-					],
-					[
-						"functio",
-						"function_with_name"
-					],
-					[
-						"desc",
-						"description-filename\tErrorEvent"
+						"New",
+						"New9\tabc"
 					],
 					[
 						"des",
-						"description-error\tErrorEvent"
+						"description\tabc"
+					],
+					[
+						"const",
+						"const"
+					],
+					[
+						"fe",
+						"Fetch.js"
+					],
+					[
+						"comme",
+						"commentBlock\tabc"
+					],
+					[
+						"com",
+						"commentBlock\tabc"
+					],
+					[
+						"gete",
+						"getElementById\t( elementId: DOMString ): Element Document"
+					],
+					[
+						"pro",
+						"Promise_example.js"
+					],
+					[
+						"data",
+						"data\t(promise.js)"
+					],
+					[
+						"users",
+						"userIds\tabc"
+					],
+					[
+						"user",
+						"user_id\tabc"
+					],
+					[
+						"re",
+						"result2\tabc"
+					],
+					[
+						"resu",
+						"result1\tabc"
+					],
+					[
+						"res",
+						"result\tabc"
+					],
+					[
+						"promise",
+						"promise2\tabc"
+					],
+					[
+						"Promi",
+						"Promise.all"
+					],
+					[
+						"Promise",
+						"Promise.all\tabc"
+					],
+					[
+						"getEle",
+						"getElementById\t( elementId: DOMString ): Element Document"
+					],
+					[
+						"getele",
+						"description-getElementById\tDocument"
+					],
+					[
+						"get",
+						"getAttribute\tabc"
+					],
+					[
+						"chil",
+						"childNodes\t: NodeList Node"
+					],
+					[
+						"docu",
+						"documentElement\t: Element Document"
+					],
+					[
+						"repon",
+						"responseXML\t XMLHttpRequest"
+					],
+					[
+						"manv",
+						"manv1\tabc"
+					],
+					[
+						"max",
+						"max-width\tproperty"
+					],
+					[
+						"marg",
+						"margin-right\tproperty"
+					],
+					[
+						"maring",
+						"margin-right\tabc"
+					],
+					[
+						"te",
+						"text-align"
+					],
+					[
+						"w",
+						"width\tproperty"
+					],
+					[
+						"styl",
+						"style\tAttr"
+					],
+					[
+						"tran",
+						"transition"
+					],
+					[
+						"la",
+						"label\tTag"
+					],
+					[
+						"trna",
+						"translate()"
+					],
+					[
+						"marign",
+						"margin-left\tproperty"
+					],
+					[
+						"flex",
+						"flex-basis\tproperty"
+					],
+					[
+						"flex-",
+						"flex-direction\tproperty"
+					],
+					[
+						"or",
+						"orange"
+					],
+					[
+						"min",
+						"min-width\tproperty"
+					],
+					[
+						"method",
+						"method=\"post\t(index1.php)"
+					],
+					[
+						"ac",
+						"action\tabc"
+					],
+					[
+						"transla",
+						"translateY\tabc"
+					],
+					[
+						"tranf",
+						"transform\tproperty"
+					],
+					[
+						"ma",
+						"mathuoc\tabc"
+					],
+					[
+						"manc",
+						"mancc\tabc"
+					],
+					[
+						"ngay",
+						"ngaybaogia\tabc"
+					],
+					[
+						"Nha",
+						"NhaCungCap\t(QLDatMua.php)"
+					],
+					[
+						"Kho",
+						"KhoaDT\t(delete.php)"
+					],
+					[
+						"Ngay",
+						"NgayMua\tabc"
+					],
+					[
+						"me",
+						"method\tAttr"
+					],
+					[
+						"pal",
+						"placeholder\tAttr"
+					],
+					[
+						"index",
+						"index1.php\t(login.php)"
+					],
+					[
+						"solu",
+						"soluong2\tabc"
+					],
+					[
+						"over",
+						"overflow\tproperty"
+					],
+					[
+						"style",
+						"style\tAttr"
+					],
+					[
+						"E",
+						"Employee.php\t(main.js)"
+					],
+					[
+						"po",
+						"pointer\tabc"
+					],
+					[
+						"nhas",
+						"nhasx2\tabc"
+					],
+					[
+						"hansd",
+						"hansd2\tabc"
+					],
+					[
+						"dongia",
+						"dongia2\tabc"
+					],
+					[
+						"Don",
+						"DonGia\tabc"
+					],
+					[
+						"donvitinh",
+						"donvitinh\tabc"
+					],
+					[
+						"don",
+						"donvitinh\tabc"
+					],
+					[
+						"MaNCC",
+						"MaNCC\tabc"
+					],
+					[
+						"script",
+						"script\t<script>"
+					],
+					[
+						"Em",
+						"Employee.php\tabc"
+					],
+					[
+						"ale",
+						"align-items\tproperty"
+					],
+					[
+						"em",
+						"employeeList\tabc"
+					],
+					[
+						"P",
+						"POST\tabc"
+					],
+					[
+						"str_re",
+						"str_replace"
+					],
+					[
+						"ex",
+						"execute\t(dbhelp.php)"
+					],
+					[
+						"TNE",
+						"TenNV\tabc"
+					],
+					[
+						"db",
+						"dbhelp.php\t(index1.php)"
+					],
+					[
+						"main",
+						"main.css\t(index1.php)"
+					],
+					[
+						"bas",
+						"base.css\t(index1.php)"
+					],
+					[
+						"mysqlif",
+						"mysql_fetch_field"
+					],
+					[
+						"mysqlc",
+						"mysql_close"
+					],
+					[
+						"my",
+						"mysql_query"
+					],
+					[
+						"PAss",
+						"PASSWORD\t(config.php)"
+					],
+					[
+						"mysql",
+						"mysql_connect"
+					],
+					[
+						"pa",
+						"password1\tabc"
+					],
+					[
+						"pass",
+						"password2\tabc"
+					],
+					[
+						"vi",
+						"visibility\tproperty"
+					],
+					[
+						"lang",
+						"languages\tabc"
 					]
 				]
 			},
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
 			],
 			"build_varint": "",
 			"command_palette":
@@ -566,7 +595,23 @@
 						"Package Control: Install Package"
 					],
 					[
+						"insatll",
+						"Package Control: Install Package"
+					],
+					[
 						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"instla",
+						"Package Control: Install Package"
+					],
+					[
+						"git",
+						"Git: Commit"
+					],
+					[
+						"ins",
 						"Package Control: Install Package"
 					],
 					[
@@ -582,10 +627,6 @@
 						"Color Picker"
 					],
 					[
-						"ins",
-						"Package Control: Install Package"
-					],
-					[
 						"auto",
 						"Autoprefix CSS"
 					],
@@ -598,7 +639,7 @@
 			},
 			"console":
 			{
-				"height": 0.0,
+				"height": 57.0,
 				"history":
 				[
 				]
@@ -614,6 +655,50 @@
 			},
 			"file_history":
 			[
+				"/home/nguyennhuy/Desktop/quanlynv/assets/css/base.css",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/KhoPill.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/mysql.sql",
+				"/home/nguyennhuy/Desktop/DoAnBV2/omingu.js",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/QLXuatThuoc.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/Pill.php",
+				"/home/nguyennhuy/Desktop/javascript-F8/Basic2/JsonServer.js",
+				"/home/nguyennhuy/Desktop/javascript-F8/Basic2/Fetch.js",
+				"/home/nguyennhuy/Desktop/javascript-F8/Basic2/index.html",
+				"/home/nguyennhuy/Desktop/javascript-F8/Basic2/Promise_example.js",
+				"/home/nguyennhuy/Desktop/javascript-F8/Basic2/promise.js",
+				"/home/nguyennhuy/Desktop/javascript-F8/Fetch.js",
+				"/home/nguyennhuy/Desktop/Python_XML/xml.py",
+				"/home/nguyennhuy/Desktop/DoAnBV2/assets/css/main.css",
+				"/home/nguyennhuy/Desktop/Reponsive-F8/library-grid_system/index.html",
+				"/home/nguyennhuy/Desktop/Reponsive-F8/b/b.css",
+				"/home/nguyennhuy/Desktop/Reponsive-F8/b/a.css",
+				"/home/nguyennhuy/Desktop/Reponsive-F8/b/index.html",
+				"/home/nguyennhuy/Desktop/Reponsive-F8/a/b.css",
+				"/home/nguyennhuy/Desktop/Reponsive-F8/a/a.css",
+				"/home/nguyennhuy/Desktop/Reponsive-F8/a/index.html",
+				"/home/nguyennhuy/Desktop/Reponsive-F8/asset/base.css",
+				"/home/nguyennhuy/Desktop/Reponsive-F8/asset/index.html",
+				"/home/nguyennhuy/Desktop/Reponsive-F8/a.html",
+				"/home/nguyennhuy/Desktop/DoAnBV2/assets/css/form.css",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/delete.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/login.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/Employee.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/KhoaDT.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/main.js",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/user.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/assets/css/base.css",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/NhaCC.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/dbhelp.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/config.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/assets/js/jquery.js",
+				"/home/nguyennhuy/Desktop/DoAnBV2/index1.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/index.html",
+				"/home/nguyennhuy/Desktop/coderx/npm/package.json",
+				"/home/nguyennhuy/Desktop/coderx/node-module2/test.txt",
+				"/home/nguyennhuy/Desktop/coderx/node-module2/index.js",
+				"/home/nguyennhuy/Desktop/coderx/node-module/Mouse.js",
+				"/home/nguyennhuy/Desktop/coderx/node-module/Cat.js",
+				"/home/nguyennhuy/Desktop/coderx/node-module/index.js",
 				"/home/nguyennhuy/Downloads/Báo Cáo #DAUTIN/Dau tin trong anh bitmap/SteganographyBMP.sln",
 				"/home/nguyennhuy/Desktop/Web-Nguyen-duc-viet/bai 1/main.js",
 				"/home/nguyennhuy/Desktop/Web-Nguyen-duc-viet/bai 1/index.html",
@@ -662,7 +747,7 @@
 			],
 			"find":
 			{
-				"height": 26.0
+				"height": 23.0
 			},
 			"find_in_files":
 			{
@@ -692,7 +777,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 26.0
+				"height": 23.0
 			},
 			"input":
 			{
@@ -703,18 +788,30 @@
 			{
 				"height": 0.0
 			},
+			"output.exec":
+			{
+				"height": 159.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
+			},
+			"output.git":
+			{
+				"height": 109.0
 			},
 			"output.mdpopups":
 			{
 				"height": 0.0
 			},
+			"output.nodejs":
+			{
+				"height": 121.0
+			},
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 48.0
+				"height": 42.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -748,13 +845,13 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 145.0,
+			"side_bar_width": 177.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 0.0
+		"new_window_width": 640.0
 	},
 	"windows":
 	[
@@ -764,536 +861,529 @@
 				"selected_items":
 				[
 					[
-						"tim",
-						"timkiem\tabc"
+						"H",
+						"height\tproperty"
 					],
 					[
-						"pass",
-						"password\tabc"
+						"s",
+						"scale-color\tscale-color()"
 					],
 					[
-						"ind",
-						"index2.php"
+						"Thuoc",
+						"ThuocHuy\tabc"
 					],
 					[
-						"user",
-						"user1\tabc"
+						"Ma",
+						"MaThuoc\tabc"
 					],
 					[
-						"back",
-						"background-color\tabc"
+						"btn",
+						"bs3-button:primary\tbs3-button-primary"
 					],
 					[
-						"out",
-						"outline\tproperty"
+						"b4",
+						"b4:table:hover\ttable_hover"
+					],
+					[
+						"mari",
+						"margin-top\tproperty"
+					],
+					[
+						"mar",
+						"margin-top\tproperty"
+					],
+					[
+						"font",
+						"font-size"
+					],
+					[
+						"table",
+						"table-hover \tBootstrap 3 Class"
+					],
+					[
+						"tbale",
+						"table-bordered \tBootstrap 3 Class"
+					],
+					[
+						"padding",
+						"padding\tabc"
+					],
+					[
+						"in",
+						"inline-block"
+					],
+					[
+						"fotn",
+						"font-size\tproperty"
 					],
 					[
 						"tex",
 						"text-align\tproperty"
 					],
 					[
-						"inline",
-						"inline-block"
-					],
-					[
-						"colum",
-						"column"
-					],
-					[
-						"TH",
-						"ThongTin\tabc"
-					],
-					[
-						"T",
-						"ThongTin\tabc"
-					],
-					[
-						"te",
-						"text\tabc"
-					],
-					[
-						"trangthai",
-						"trangThaiCua2CD\tabc"
-					],
-					[
-						"bien",
-						"bienMatKhiAnPrev\tabc"
-					],
-					[
-						"dang",
-						"danghienthi"
-					],
-					[
-						"class",
-						"classList\tabc"
-					],
-					[
-						"func",
-						"function"
-					],
-					[
-						"xu",
-						"xuLyTiepTheoKetThucCD"
-					],
-					[
-						"fun",
-						"function\tabc"
-					],
-					[
-						"xy",
-						"xuLyHienTaiKetThucCD\tabc"
-					],
-					[
-						"phan",
-						"phanTuTiepTheo\tabc"
-					],
-					[
-						"phanth",
-						"phanTuTiepTheo\tabc"
-					],
-					[
-						"chi",
-						"chiSoHienTai\tabc"
-					],
-					[
-						"trang",
-						"trangThai\tabc"
-					],
-					[
-						"remve",
-						"remove\t(): void Element"
-					],
-					[
-						"add",
-						"addEventListener\tabc"
-					],
-					[
-						"ove",
-						"overflow-x\tproperty"
-					],
-					[
-						"tran",
-						"transform\tproperty"
-					],
-					[
-						"re",
-						"relative\tabc"
+						"fle",
+						"flex-direction"
 					],
 					[
 						"margin",
 						"margin\tproperty"
 					],
 					[
-						"st",
-						"style\t<style>"
+						"j",
+						"justify-content\tproperty"
 					],
 					[
-						"font",
-						"font-size\tabc"
+						"cff",
+						"coffeeMachine\tabc"
 					],
 					[
-						"flex",
-						"flex-row \tBootstrap 4 Class"
+						"func",
+						"function_with_name"
 					],
 					[
-						"ju",
-						"justify-content-center \tBootstrap 4 Class"
-					],
-					[
-						"center",
-						"align-items-sm-center \tBootstrap 4 Class"
-					],
-					[
-						"float-s",
-						"float-sm-right \tBootstrap 4 Class"
-					],
-					[
-						"b4",
-						"b4:list\tlist"
-					],
-					[
-						"tra",
-						"transform\tproperty"
-					],
-					[
-						"over",
-						"overflow-x\tproperty"
-					],
-					[
-						"marign",
-						"margin-top\tproperty"
-					],
-					[
-						"getele",
-						"getElementsByClassName\t( classNames: DOMString ): HTMLCollection Element"
-					],
-					[
-						"getel",
-						"getElementById\t( elementId: DOMString ): Element Document"
-					],
-					[
-						"visi",
-						"visible"
-					],
-					[
-						"fi",
-						"fixed\tabc"
-					],
-					[
-						"a",
-						"absolute"
-					],
-					[
-						"cals",
-						"classList\t: DOMTokenList Element"
-					],
-					[
-						"calss",
-						"classList\tabc"
-					],
-					[
-						"vis",
-						"visible"
-					],
-					[
-						"getEle",
-						"getElementById\t( elementId: DOMString ): Element Document"
-					],
-					[
-						"data",
-						"data-hienthi\t(main.js)"
-					],
-					[
-						"get",
-						"getAttribute\tabc"
-					],
-					[
-						"f",
-						"function\tabc"
-					],
-					[
-						"getEleme",
-						"getElementsByClassName\t( classNames: DOMString ): HTMLCollection Document"
-					],
-					[
-						"vi",
-						"visibility"
-					],
-					[
-						"b4list",
-						"b4:list:label\tlabel"
-					],
-					[
-						"wid",
-						"width\tproperty"
-					],
-					[
-						"transl",
-						"translateY()"
-					],
-					[
-						"in",
-						"ease-in"
-					],
-					[
-						"fo",
-						"forwards"
-					],
-					[
-						"translate",
-						"translateX()"
-					],
-					[
-						"trans",
-						"transform\tproperty"
-					],
-					[
-						"marin",
-						"margin\tproperty"
-					],
-					[
-						"gete",
-						"getElementById\t( elementId: DOMString ): Element Document"
-					],
-					[
-						"docu",
-						"document\t: Document Window"
-					],
-					[
-						"b4card",
-						"b4:card:header\theader"
-					],
-					[
-						"col-sm-4",
-						"col-sm-4 \tBootstrap 4 Class"
-					],
-					[
-						"btn-",
-						"btn-info \tBootstrap 4 Class"
-					],
-					[
-						"card",
-						"card-title\tabc"
-					],
-					[
-						"bt",
-						"bootstrap"
-					],
-					[
-						"cards",
-						"card's\tabc"
-					],
-					[
-						"btn",
-						"btn-block \tBootstrap 4 Class"
-					],
-					[
-						"grow",
-						"flex-grow\tproperty"
-					],
-					[
-						"clo",
-						"column"
-					],
-					[
-						"spa",
-						"space-between"
-					],
-					[
-						"di",
-						"display\tproperty"
-					],
-					[
-						"ali",
-						"align-items"
-					],
-					[
-						"w",
-						"width\tproperty"
-					],
-					[
-						"he",
-						"height\tproperty"
-					],
-					[
-						"sty",
-						"style\t(main.js)"
-					],
-					[
-						"hex",
-						"hexColor\tabc"
-					],
-					[
-						"cen",
-						"center\tabc"
-					],
-					[
-						"al",
-						"align-items\tproperty"
-					],
-					[
-						"jus",
-						"justify-content"
-					],
-					[
-						"ran",
-						"randomNumber\tabc"
-					],
-					[
-						"query",
-						"querySelector\t( selectors: DOMString ): Element Document"
-					],
-					[
-						"cau",
-						"cau3.php"
-					],
-					[
-						"filte",
-						"filterA\tabc"
-					],
-					[
-						"vlue",
-						"value1\tabc"
-					],
-					[
-						"value",
-						"value1\tabc"
-					],
-					[
-						"sel",
-						"selectedGender\tabc"
-					],
-					[
-						"va",
-						"value1\tabc"
-					],
-					[
-						"ta",
-						"target\t: EventTarget Event"
-					],
-					[
-						"setti",
+						"set",
 						"setTimeout\t( handler: any, timeout?: long, arguments_..: any ): long Window"
 					],
 					[
-						"cal",
-						"callback\tabc"
+						"for",
+						"for_of"
+					],
+					[
+						"wid",
+						"width\t = 'initial' Style CSS"
 					],
 					[
 						"console",
 						"console_log"
 					],
 					[
-						"functi",
-						"function\tabc"
+						"fil",
+						"filter\t( callbackfn: Function, thisArg?: any ): Array Array"
 					],
 					[
-						"cosoel",
+						"consloe",
 						"console_log"
 					],
 					[
-						"for",
-						"forEach2\tabc"
+						"ta",
+						"tab-content \tBootstrap 4 Class"
 					],
 					[
-						"arr",
-						"array\tabc"
+						"tab",
+						"table-bordered \tBootstrap 3 Class"
 					],
 					[
-						"has",
-						"hasOwnProperty\t( property: string ): boolean Object"
+						"Ten",
+						"TenNV\t(Employee.php)"
 					],
 					[
-						"properties",
-						"defineProperties\t( o: Object, props: any ): Object Object"
+						"Nhan",
+						"NhanVien\tabc"
 					],
 					[
-						"que",
-						"querySelectorAll\t( selectors: DOMString ): NodeList Document"
+						"So",
+						"SoPhieuBG\tabc"
 					],
 					[
-						"loacl",
-						"localStorage\t: Storage Window"
+						"so",
+						"sophieubaogia\tabc"
 					],
 					[
-						"par",
-						"parseInt\t( s: string, radix: int ): int Global"
+						"ins",
+						"insert\tabc"
 					],
 					[
-						"lis",
-						"listAge\tabc"
+						"Sophie",
+						"SoPhieuBG\t(QLBaoGia.php)"
 					],
 					[
-						"getElen",
-						"getElementById\t( elementId: DOMString ): Element Document"
+						"sophie",
+						"sophieu1\tabc"
 					],
 					[
-						"selec",
-						"selection\t(index.html)"
+						"sophieu",
+						"sophieu\tabc"
 					],
 					[
-						"pro",
-						"prototype"
+						"S",
+						"SoPhieuHuy\tabc"
 					],
 					[
-						"onmou",
-						"onmousemove\t: EventHandler Document"
+						"soph",
+						"sophieumuathuoc\tabc"
 					],
 					[
-						"bu",
-						"buttomm\tabc"
+						"sop",
+						"sophieumuathuoc2\tabc"
 					],
 					[
-						"type",
-						"type\tAttr"
+						"sph",
+						"sophieubaogia\tabc"
 					],
 					[
-						"ma",
-						"maNganhnhap\tabc"
+						"QL",
+						"QLHuyThuoc.php\tabc"
 					],
 					[
-						"ho",
-						"hotenNhap\tabc"
+						"thuoc",
+						"thuochuy\t(QLHuyThuoc.php)"
 					],
 					[
-						"dia",
-						"diachiNhap\tabc"
+						"ind",
+						"index2.html"
 					],
 					[
-						"sinhvine",
-						"sinhvien1\tabc"
+						"mathuoc",
+						"mathuoc\tabc"
 					],
 					[
-						"ngu",
-						"nguoitest\tabc"
+						"sopheiu",
+						"sophieu1\tabc"
 					],
 					[
-						"count",
-						"count1\tabc"
+						"MaN",
+						"MaNV\tabc"
 					],
 					[
-						"del",
-						"delta\tabc"
-					],
-					[
-						"but",
-						"buttonn\t(index.html)"
-					],
-					[
-						"test",
-						"testOnclik\t(index.html)"
-					],
-					[
-						"doc",
-						"document\t: Document Window"
-					],
-					[
-						"getelem",
-						"getElementById\t( elementId: DOMString ): Element Document"
-					],
-					[
-						"var",
-						"var_dump"
-					],
-					[
-						"d",
-						"dd\t<dd>"
-					],
-					[
-						"php",
-						"phpinfo"
-					],
-					[
-						"functio",
-						"function_with_name"
-					],
-					[
-						"desc",
-						"description-filename\tErrorEvent"
+						"New",
+						"New9\tabc"
 					],
 					[
 						"des",
-						"description-error\tErrorEvent"
+						"description\tabc"
+					],
+					[
+						"const",
+						"const"
+					],
+					[
+						"fe",
+						"Fetch.js"
+					],
+					[
+						"comme",
+						"commentBlock\tabc"
+					],
+					[
+						"com",
+						"commentBlock\tabc"
+					],
+					[
+						"gete",
+						"getElementById\t( elementId: DOMString ): Element Document"
+					],
+					[
+						"pro",
+						"Promise_example.js"
+					],
+					[
+						"data",
+						"data\t(promise.js)"
+					],
+					[
+						"users",
+						"userIds\tabc"
+					],
+					[
+						"user",
+						"user_id\tabc"
+					],
+					[
+						"re",
+						"result2\tabc"
+					],
+					[
+						"resu",
+						"result1\tabc"
+					],
+					[
+						"res",
+						"result\tabc"
+					],
+					[
+						"promise",
+						"promise2\tabc"
+					],
+					[
+						"Promi",
+						"Promise.all"
+					],
+					[
+						"Promise",
+						"Promise.all\tabc"
+					],
+					[
+						"getEle",
+						"getElementById\t( elementId: DOMString ): Element Document"
+					],
+					[
+						"getele",
+						"description-getElementById\tDocument"
+					],
+					[
+						"get",
+						"getAttribute\tabc"
+					],
+					[
+						"chil",
+						"childNodes\t: NodeList Node"
+					],
+					[
+						"docu",
+						"documentElement\t: Element Document"
+					],
+					[
+						"repon",
+						"responseXML\t XMLHttpRequest"
+					],
+					[
+						"manv",
+						"manv1\tabc"
+					],
+					[
+						"max",
+						"max-width\tproperty"
+					],
+					[
+						"marg",
+						"margin-right\tproperty"
+					],
+					[
+						"maring",
+						"margin-right\tabc"
+					],
+					[
+						"te",
+						"text-align"
+					],
+					[
+						"w",
+						"width\tproperty"
+					],
+					[
+						"styl",
+						"style\tAttr"
+					],
+					[
+						"tran",
+						"transition"
+					],
+					[
+						"la",
+						"label\tTag"
+					],
+					[
+						"trna",
+						"translate()"
+					],
+					[
+						"marign",
+						"margin-left\tproperty"
+					],
+					[
+						"flex",
+						"flex-basis\tproperty"
+					],
+					[
+						"flex-",
+						"flex-direction\tproperty"
+					],
+					[
+						"or",
+						"orange"
+					],
+					[
+						"min",
+						"min-width\tproperty"
+					],
+					[
+						"method",
+						"method=\"post\t(index1.php)"
+					],
+					[
+						"ac",
+						"action\tabc"
+					],
+					[
+						"transla",
+						"translateY\tabc"
+					],
+					[
+						"tranf",
+						"transform\tproperty"
+					],
+					[
+						"ma",
+						"mathuoc\tabc"
+					],
+					[
+						"manc",
+						"mancc\tabc"
+					],
+					[
+						"ngay",
+						"ngaybaogia\tabc"
+					],
+					[
+						"Nha",
+						"NhaCungCap\t(QLDatMua.php)"
+					],
+					[
+						"Kho",
+						"KhoaDT\t(delete.php)"
+					],
+					[
+						"Ngay",
+						"NgayMua\tabc"
+					],
+					[
+						"me",
+						"method\tAttr"
+					],
+					[
+						"pal",
+						"placeholder\tAttr"
+					],
+					[
+						"index",
+						"index1.php\t(login.php)"
+					],
+					[
+						"solu",
+						"soluong2\tabc"
+					],
+					[
+						"over",
+						"overflow\tproperty"
+					],
+					[
+						"style",
+						"style\tAttr"
+					],
+					[
+						"E",
+						"Employee.php\t(main.js)"
+					],
+					[
+						"po",
+						"pointer\tabc"
+					],
+					[
+						"nhas",
+						"nhasx2\tabc"
+					],
+					[
+						"hansd",
+						"hansd2\tabc"
+					],
+					[
+						"dongia",
+						"dongia2\tabc"
+					],
+					[
+						"Don",
+						"DonGia\tabc"
+					],
+					[
+						"donvitinh",
+						"donvitinh\tabc"
+					],
+					[
+						"don",
+						"donvitinh\tabc"
+					],
+					[
+						"MaNCC",
+						"MaNCC\tabc"
+					],
+					[
+						"script",
+						"script\t<script>"
+					],
+					[
+						"Em",
+						"Employee.php\tabc"
+					],
+					[
+						"ale",
+						"align-items\tproperty"
+					],
+					[
+						"em",
+						"employeeList\tabc"
+					],
+					[
+						"P",
+						"POST\tabc"
+					],
+					[
+						"str_re",
+						"str_replace"
+					],
+					[
+						"ex",
+						"execute\t(dbhelp.php)"
+					],
+					[
+						"TNE",
+						"TenNV\tabc"
+					],
+					[
+						"db",
+						"dbhelp.php\t(index1.php)"
+					],
+					[
+						"main",
+						"main.css\t(index1.php)"
+					],
+					[
+						"bas",
+						"base.css\t(index1.php)"
+					],
+					[
+						"mysqlif",
+						"mysql_fetch_field"
+					],
+					[
+						"mysqlc",
+						"mysql_close"
+					],
+					[
+						"my",
+						"mysql_query"
+					],
+					[
+						"PAss",
+						"PASSWORD\t(config.php)"
+					],
+					[
+						"mysql",
+						"mysql_connect"
+					],
+					[
+						"pa",
+						"password1\tabc"
+					],
+					[
+						"pass",
+						"password2\tabc"
+					],
+					[
+						"vi",
+						"visibility\tproperty"
 					]
 				]
 			},
 			"buffers":
 			[
 				{
-					"file": "/home/nguyennhuy/Desktop/DoAnBV2/index2.php",
+					"contents": "header{\n\t&.height {\n\n\t}\t\n}",
+					"file": "/home/nguyennhuy/Documents/style.sass",
+					"file_size": 0,
+					"file_write_time": 132522574827151485,
 					"settings":
 					{
-						"buffer_size": 383,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/nguyennhuy/Desktop/DoAnBV2/index1.php",
-					"settings":
-					{
-						"buffer_size": 69098,
-						"encoding": "UTF-8",
+						"buffer_size": 26,
 						"line_ending": "Unix"
 					}
 				}
@@ -1301,6 +1391,22 @@
 			"build_system": "",
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
 			],
 			"build_varint": "",
 			"command_palette":
@@ -1310,11 +1416,31 @@
 				"selected_items":
 				[
 					[
+						"sass",
+						"Snippet: +include - Sass syntax"
+					],
+					[
 						"install",
 						"Package Control: Install Package"
 					],
 					[
+						"insatll",
+						"Package Control: Install Package"
+					],
+					[
 						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"instla",
+						"Package Control: Install Package"
+					],
+					[
+						"git",
+						"Git: Commit"
+					],
+					[
+						"ins",
 						"Package Control: Install Package"
 					],
 					[
@@ -1330,10 +1456,6 @@
 						"Color Picker"
 					],
 					[
-						"ins",
-						"Package Control: Install Package"
-					],
-					[
 						"auto",
 						"Autoprefix CSS"
 					],
@@ -1346,7 +1468,7 @@
 			},
 			"console":
 			{
-				"height": 0.0,
+				"height": 57.0,
 				"history":
 				[
 				]
@@ -1362,11 +1484,54 @@
 			},
 			"expanded_folders":
 			[
-				"/home/nguyennhuy/Desktop/DoAnBV2",
-				"/home/nguyennhuy/Desktop/DoAnBV2/assets.css"
+				"/home/nguyennhuy/Documents"
 			],
 			"file_history":
 			[
+				"/home/nguyennhuy/Desktop/quanlynv/assets/css/base.css",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/KhoPill.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/mysql.sql",
+				"/home/nguyennhuy/Desktop/DoAnBV2/omingu.js",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/QLXuatThuoc.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/Pill.php",
+				"/home/nguyennhuy/Desktop/javascript-F8/Basic2/JsonServer.js",
+				"/home/nguyennhuy/Desktop/javascript-F8/Basic2/Fetch.js",
+				"/home/nguyennhuy/Desktop/javascript-F8/Basic2/index.html",
+				"/home/nguyennhuy/Desktop/javascript-F8/Basic2/Promise_example.js",
+				"/home/nguyennhuy/Desktop/javascript-F8/Basic2/promise.js",
+				"/home/nguyennhuy/Desktop/javascript-F8/Fetch.js",
+				"/home/nguyennhuy/Desktop/Python_XML/xml.py",
+				"/home/nguyennhuy/Desktop/DoAnBV2/assets/css/main.css",
+				"/home/nguyennhuy/Desktop/Reponsive-F8/library-grid_system/index.html",
+				"/home/nguyennhuy/Desktop/Reponsive-F8/b/b.css",
+				"/home/nguyennhuy/Desktop/Reponsive-F8/b/a.css",
+				"/home/nguyennhuy/Desktop/Reponsive-F8/b/index.html",
+				"/home/nguyennhuy/Desktop/Reponsive-F8/a/b.css",
+				"/home/nguyennhuy/Desktop/Reponsive-F8/a/a.css",
+				"/home/nguyennhuy/Desktop/Reponsive-F8/a/index.html",
+				"/home/nguyennhuy/Desktop/Reponsive-F8/asset/base.css",
+				"/home/nguyennhuy/Desktop/Reponsive-F8/asset/index.html",
+				"/home/nguyennhuy/Desktop/Reponsive-F8/a.html",
+				"/home/nguyennhuy/Desktop/DoAnBV2/assets/css/form.css",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/delete.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/login.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/Employee.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/KhoaDT.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/main.js",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/user.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/assets/css/base.css",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/NhaCC.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/dbhelp.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/php/config.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/assets/js/jquery.js",
+				"/home/nguyennhuy/Desktop/DoAnBV2/index1.php",
+				"/home/nguyennhuy/Desktop/DoAnBV2/index.html",
+				"/home/nguyennhuy/Desktop/coderx/npm/package.json",
+				"/home/nguyennhuy/Desktop/coderx/node-module2/test.txt",
+				"/home/nguyennhuy/Desktop/coderx/node-module2/index.js",
+				"/home/nguyennhuy/Desktop/coderx/node-module/Mouse.js",
+				"/home/nguyennhuy/Desktop/coderx/node-module/Cat.js",
+				"/home/nguyennhuy/Desktop/coderx/node-module/index.js",
 				"/home/nguyennhuy/Downloads/Báo Cáo #DAUTIN/Dau tin trong anh bitmap/SteganographyBMP.sln",
 				"/home/nguyennhuy/Desktop/Web-Nguyen-duc-viet/bai 1/main.js",
 				"/home/nguyennhuy/Desktop/Web-Nguyen-duc-viet/bai 1/index.html",
@@ -1415,7 +1580,7 @@
 			],
 			"find":
 			{
-				"height": 26.0
+				"height": 23.0
 			},
 			"find_in_files":
 			{
@@ -1446,7 +1611,7 @@
 			"folders":
 			[
 				{
-					"path": "/home/nguyennhuy/Desktop/DoAnBV2"
+					"path": "/home/nguyennhuy/Documents"
 				}
 			],
 			"groups":
@@ -1457,19 +1622,19 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/nguyennhuy/Desktop/DoAnBV2/index2.php",
+							"file": "/home/nguyennhuy/Documents/style.sass",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 383,
+								"buffer_size": 26,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										383,
-										383
+										19,
+										19
 									]
 								],
 								"settings":
@@ -1479,12 +1644,27 @@
 									{
 										"close":
 										{
+											"1":
+											[
+												22,
+												23
+											]
 										},
 										"icon":
 										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/curly_bracket.png",
+												"region.purplish"
+											]
 										},
 										"open":
 										{
+											"1":
+											[
+												18,
+												19
+											]
 										},
 										"unmatched":
 										{
@@ -1492,46 +1672,36 @@
 									},
 									"bracket_highlighter.regions":
 									[
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
 										"bh_default",
 										"bh_default_center",
 										"bh_default_open",
 										"bh_default_close",
 										"bh_default_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
 										"bh_unmatched",
 										"bh_unmatched_center",
 										"bh_unmatched_open",
 										"bh_unmatched_close",
 										"bh_unmatched_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
 										"bh_single_quote",
 										"bh_single_quote_center",
 										"bh_single_quote_open",
@@ -1542,13 +1712,23 @@
 										"bh_square_open",
 										"bh_square_close",
 										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
 										"bh_tag",
 										"bh_tag_center",
 										"bh_tag_open",
 										"bh_tag_close",
 										"bh_tag_content"
 									],
-									"color_helper.box_height": 17,
+									"color_helper.box_height": 14,
 									"color_helper.color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 									"color_helper.file_palette":
 									[
@@ -1560,42 +1740,39 @@
 									{
 										"allowed_colors":
 										[
-											"rgba",
-											"hexa",
-											"hsl",
-											"hexa_compressed",
 											"rgb",
-											"gray",
-											"graya",
 											"hex_compressed",
-											"hwba",
 											"hex",
+											"hwb",
+											"hwba",
 											"hsla",
+											"rgba",
 											"webcolors",
-											"hwb"
+											"hexa",
+											"hexa_compressed",
+											"hsl",
+											"gray",
+											"graya"
 										],
 										"compress_hex_output": true,
-										"current_ext": ".php",
-										"current_syntax": "PHP/PHP",
+										"current_ext": ".sass",
+										"current_syntax": "Sass/Syntaxes/Sass",
 										"enabled": true,
-										"last_updated": 1606014009.19,
+										"last_updated": 1607783802.25,
 										"scan_completion_scopes":
 										[
+											"source.scss meta.property-value.css -comment -string",
+											"source.sass meta.property-value.css -comment -string"
 										],
 										"scan_scopes":
 										[
-											"meta.declaration-list.css -support.type.property-name.css -comment -string",
-											"meta.property-value.css -comment -string",
-											"meta.value.css -comment -string",
-											"meta.tag.inline.any.html string.quoted -constant.character.entity.html",
-											"meta.tag.any.html meta.attribute-with-value.style.html"
+											"source.sass meta.property-value.css -comment -string",
+											"source.scss meta.property-value.css -comment -string"
 										],
 										"use_hex_argb": false
 									},
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
+									"git_gutter_is_enabled": false,
+									"syntax": "Packages/Sass/Syntaxes/Sass.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -1603,206 +1780,13 @@
 							},
 							"stack_index": 0,
 							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/nguyennhuy/Desktop/DoAnBV2/index1.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 69098,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										8056,
-										8056
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-											"1":
-											[
-												8051,
-												8055
-											]
-										},
-										"icon":
-										{
-											"1":
-											[
-												"Packages/BracketHighlighter/icons/tag.png",
-												"region.orangish"
-											]
-										},
-										"open":
-										{
-											"1":
-											[
-												8022,
-												8026
-											]
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content"
-									],
-									"color_helper.box_height": 17,
-									"color_helper.color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
-									"color_helper.file_palette":
-									[
-										"#ff0000ff",
-										"#ffffffff"
-									],
-									"color_helper.preview_meta":
-									{
-										"675":
-										[
-											4849088363843263404,
-											5,
-											"webcolors",
-											-9176770824693355229,
-											1,
-											"1606016540.4474015"
-										],
-										"8479":
-										[
-											1431436360065750704,
-											3,
-											"webcolors",
-											4485036533762519063,
-											2,
-											"1606016542.3260763"
-										],
-										"9739":
-										[
-											1431436360065750704,
-											3,
-											"webcolors",
-											4485036533762519063,
-											3,
-											"1606016542.8260906"
-										]
-									},
-									"color_helper.scan":
-									{
-										"allowed_colors":
-										[
-											"rgba",
-											"hexa",
-											"hsl",
-											"hexa_compressed",
-											"rgb",
-											"gray",
-											"graya",
-											"hex_compressed",
-											"hwba",
-											"hex",
-											"hsla",
-											"webcolors",
-											"hwb"
-										],
-										"compress_hex_output": true,
-										"current_ext": ".php",
-										"current_syntax": "PHP/PHP",
-										"enabled": true,
-										"last_updated": 1606014009.19,
-										"scan_completion_scopes":
-										[
-										],
-										"scan_scopes":
-										[
-											"meta.declaration-list.css -support.type.property-name.css -comment -string",
-											"meta.property-value.css -comment -string",
-											"meta.value.css -comment -string",
-											"meta.tag.inline.any.html string.quoted -constant.character.entity.html",
-											"meta.tag.any.html meta.attribute-with-value.style.html"
-										],
-										"use_hex_argb": false
-									},
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 7562.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
 						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 26.0
+				"height": 23.0
 			},
 			"input":
 			{
@@ -1835,20 +1819,32 @@
 			{
 				"height": 0.0
 			},
+			"output.exec":
+			{
+				"height": 159.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
+			},
+			"output.git":
+			{
+				"height": 109.0
 			},
 			"output.mdpopups":
 			{
 				"height": 0.0
 			},
+			"output.nodejs":
+			{
+				"height": 121.0
+			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,90,117,730,597,1366,768",
+			"position": "0,1,0,0,0,1413,47,2053,527,2732,768",
 			"project": "",
 			"replace":
 			{
-				"height": 48.0
+				"height": 42.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -1886,12 +1882,12 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 145.0,
+			"side_bar_width": 177.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 102,
+			"window_id": 146,
 			"workspace_name": ""
 		}
 	],
